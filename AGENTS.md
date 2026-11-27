@@ -25,9 +25,9 @@ Danach liest du nur die Dateien, die deine aktuelle Aufgabe wirklich braucht. Be
 ## Konventionen
 
 - **Dateinamen:** kleingeschrieben, Bindestriche statt Leerzeichen, keine Umlaute (`ae`, `oe`, `ue`, `ss`), z. B. `people/anna-mueller.md`, `projects/website-relaunch.md`.
-- **Wikilinks:** immer als Dateipfad ohne `.md`, optional mit lesbarem Alias: `[[people/anna-mueller|Anna Müller]]`, `[[projects/website-relaunch]]`.
+- **Wikilinks:** immer als Dateipfad ohne `.md`, optional mit lesbarem Alias: `[[people/anna-mueller|Anna Müller]]`, `[[projects/website-relaunch]]`. Pfade in `system/templates/` sind Platzhalter – beim Ausfüllen immer als echte `[[pfad|Name]]`-Links schreiben. In Markdown-Tabellen den Trenner maskieren (`[[pfad\|Name]]`).
 - **Datum:** immer absolut (`2026-11-27`, nie „morgen“ oder „letzte Woche“).
-- **Entscheidungen:** wichtige Entscheidungen als eigene Datei in `decisions/`: `2026-11-27-kurztitel.md`.
+- **Entscheidungen:** wichtige Entscheidungen als eigene Datei in `decisions/` mit dem **Entscheidungsdatum** im Namen: `2026-11-27-kurztitel.md`.
 
 ## Skills (`skills/`)
 
@@ -42,4 +42,4 @@ Alle externen Dienste (Kalender, Mail, Notizen, GitHub …) laufen zentral über
 
 ## Diese Struktur ist ein Anfang
 
-Sie ist bewusst minimal. Ich entwickle sie gemeinsam mit dir aus meiner echten Arbeit weiter. Änderst du Struktur oder Regeln, aktualisierst du `INDEX.md` und hältst es in `system/learnings.md` fest.
+Sie ist bewusst minimal. Ich entwickle sie gemeinsam mit dir aus meiner echten Arbeit weiter. Entstehen neue Bereiche/Ordner, trägt der Agent sie in `INDEX.md` ein (nur Bereiche, nicht jede einzelne Datei) und hält strukturelle Änderungen in `system/learnings.md` fest.

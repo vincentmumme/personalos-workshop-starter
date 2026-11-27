@@ -17,4 +17,4 @@
 | `system/tools.md` | Composio CLI: Pfad, Auth-Regeln und verbundene Dienste |
 | `system/learnings.md` | Was das System aus Korrekturen gelernt hat |
 
-Neue Bereiche trägt der Agent hier ein, sobald sie entstehen.
+Neue **Bereiche/Ordner** trägt der Agent hier ein, sobald sie entstehen (keine einzelnen Projekt- oder Personendateien).

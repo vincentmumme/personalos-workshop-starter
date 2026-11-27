@@ -2,12 +2,21 @@
 .DS_Store
 Thumbs.db
 
-# Lokaler Obsidian-Zustand (pro Gerät unterschiedlich)
+# Lokaler Obsidian- & Agenten-Zustand (pro Gerät unterschiedlich)
 .obsidian/workspace.json
 .obsidian/workspace-mobile.json
+.trash/
+.claude/settings.local.json
+
+# Roh-Inbox nicht unbewusst versionieren (Ordner bleibt über .gitkeep erhalten)
+inbox/*
+!inbox/.gitkeep
 
 # Secrets niemals versionieren
 .env
 .env.*
+*.env
 *.pem
 *.key
+id_rsa*
+id_ed25519*
