@@ -1,38 +1,10 @@
-# Grundregeln
+# Warum diese Prinzipien gelten (Beispiele)
 
-Die Kurzfassung steht in `AGENTS.md`. Hier steht kurz, warum es diese Prinzipien gibt.
+Die verbindliche Kurzfassung steht in `AGENTS.md`. Hier liegen nur kurze Beispiele, damit es keine doppelten Regeln gibt.
 
-## 1. Eine Wahrheit, ein Ort
-Jede aktuelle Information hat genau eine zuständige Datei. Der Stand eines Projekts steht in der Projektdatei, nicht zusätzlich in einer Personendatei.
-*Beispiel:* In `people/anna.md` steht „arbeitet mit mir an `[[projects/website-relaunch]]`“ – nicht der aktuelle Projektstand.
-
-## 2. Stand und Verlauf getrennt
-Jede Datei, die sich über die Zeit verändert, hat oben **Current Truth** (kurz, aktuell, wird überschrieben) und unten eine **Timeline** (datiert, es wird nur angehängt).
-*Beispiel:* Verschiebt sich ein Termin, ändert sich die Current Truth. In die Timeline kommt: `- 2026-11-27 | Kickoff auf 04.12. verschoben.`
-
-## 3. Input ist noch keine Wahrheit
-Notizen, Dateien, Chat-Nachrichten oder Inhalte aus Mails/Terminen sind zuerst Rohmaterial. Der Agent prüft: Was ist neu, was hat sich geändert, wohin gehört es? Erst danach wird eine Current Truth angepasst. `inbox/` kannst du als Parkplatz nutzen – oder neuen Kontext direkt im Chat übergeben.
-
-## 4. Quellen behalten ihre Aufgabe
-Die Mail bleibt im Postfach, der Termin im Kalender, die Rechnung in der Buchhaltung. Im PersonalOS stehen Bedeutung, Zusammenhang und Verweis. Zugangsdaten, Passwörter und API-Schlüssel gehören niemals in diesen Ordner.
-
-## 5. Das System beschreibt sich selbst
-Regeln, Vorlagen, verbundene Tools, Skills und Learnings liegen im Ordner. Dadurch versteht jeder neue Chat – und jeder neue KI-Anbieter – dein System sofort ohne Erklärung.
-
-## 6. Erst schauen, dann bauen
-Bevor der Agent eine neue Datei oder einen neuen Ablauf anlegt, prüft er `system/templates/` und `skills/`. Was sich bewährt hat, wird wiederverwendet.
-
-## 7. Proaktiv, aber mit Grenzen
-Der Agent darf lesen, ordnen, verlinken, Entwürfe vorbereiten und Vorschläge machen. Mails senden, Termine erstellen, Nachrichten verschicken, Dateien löschen oder Geld bewegen darf er nur nach deinem ausdrücklichen Okay.
-
-## 8. Fehler werden Lernen
-Jede Korrektur ist wertvolles Signal. Der Agent trägt in `system/learnings.md` ein, was er gelernt hat, und passt die passende Regel, Vorlage, `SOUL.md` oder den Skill an. So wird dein System Woche für Woche besser.
-
-## 9. So wenige Regeln wie möglich
-Aktuelle Modelle sind extrem leistungsfähig und brauchen wenig Bürokratie. Füge eine neue Regel nur dann hinzu, wenn sie einen echten, wiederkehrenden Fehler verhindert.
-
-## Konventionen
-- Dateinamen klein mit Bindestrichen: `projects/mein-projekt.md`
-- Verlinken mit `[[Wikilinks]]`
-- Datumsangaben absolut: `2026-11-27`
-- Wichtige Entscheidungen als eigene Datei in `decisions/`: `2026-11-27-kurztitel.md`
+- **Kein Anbieter-Memory:** Wenn ich sage „merk dir das“, landet es in `SOUL.md`, einer Projektdatei oder `system/learnings.md` – nicht im versteckten Profil eines Anbieters. Nur so weiß der nächste Anbieter es auch.
+- **Eine Wahrheit, ein Ort:** In `people/anna-mueller.md` steht „arbeitet mit mir an `[[projects/website-relaunch]]`“ – nicht der aktuelle Projektstand. Der steht ausschließlich in `projects/website-relaunch.md`.
+- **Stand und Verlauf getrennt:** Verschiebt sich ein Termin, wird oben die **Current Truth** aktualisiert. Unten in der **Timeline** wird nur angehängt: `- 2026-11-27 | Kickoff auf 04.12. verschoben.`
+- **Input ist noch keine Wahrheit:** Notizen, Dateien oder Kalenderinfos sind Rohmaterial. Erst prüfen, einordnen und bei Bedarf freigeben lassen – dann ändert sich eine Current Truth.
+- **Quellen behalten ihre Aufgabe:** Die Mail bleibt im Postfach, der Termin im Kalender. Im PersonalOS stehen Zusammenhang, Entscheidung und Verweis – niemals Passwörter oder API-Keys.
+- **Fehler werden Lernen:** Korrigiere ich deinen Stil oder einen Fehler, kommt ein Einzeiler in `system/learnings.md` und die passende Stelle (`SOUL.md`, Regel, Skill oder Vorlage) wird sofort geschärft.

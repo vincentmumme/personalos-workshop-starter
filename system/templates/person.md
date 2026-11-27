@@ -1,10 +1,10 @@
-# {{Name}}
+# Vorname Nachname
 
 ## Current Truth
 - **Rolle:** 
-- **Organisation:** [[companies/…]]
+- **Organisation:** companies/beispiel-firma
 - **Verbindung zu mir:** 
-- **Gemeinsame Projekte:** [[projects/…]]
+- **Gemeinsame Projekte:** projects/beispiel-projekt
 
 ## Timeline
-- {{JJJJ-MM-TT}} | Datei angelegt.
+- JJJJ-MM-TT | Datei angelegt.

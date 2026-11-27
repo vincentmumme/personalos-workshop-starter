@@ -1,26 +1,18 @@
 # PersonalOS · Workshop-Starter
 
-Minimaler, providerunabhängiger Startpunkt für dein eigenes **PersonalOS** – aus dem Umsetzungsworkshop **„Dein PersonalOS“** (Vincent Mumme / mummentum · AI Explorer Club).
+Minimaler, anbieterunabhängiger Startpunkt für dein eigenes **PersonalOS** – aus dem Umsetzungsworkshop **„Dein PersonalOS“** (Vincent Mumme / mummentum · AI Explorer Club, 27.11.2026).
 
-> **Die Idee:** Dein Kontext gehört dir, nicht einem KI-Anbieter. Ein Ordner aus lesbaren Markdown-Dateien, kombiniert mit **Obsidian** (Ansicht), **T3 Code** (Agenten-Oberfläche) und der **Composio CLI** (zentrale Tool-Anbindung).
+> **Die Idee:** Dein Kontext gehört dir, nicht einem KI-Anbieter. Ein Ordner aus lesbaren Markdown-Dateien, kombiniert mit **Obsidian** (Ansicht), **T3 Code** (Agenten-Oberfläche) und der **Composio CLI** (zentrale Tool-Schicht).
 
-## So startest du
+## Alle Workshop-Prompts zum 1-Klick-Kopieren
 
-1. Lege auf deinem Rechner einen leeren Ordner `PersonalOS` an.
-2. Öffne diesen Ordner als Projekt in **T3 Code** (oder deinem Coding-Agenten).
-3. Gib deinem Agenten diesen Auftrag:
+Alle Kopiervorlagen für Schritt 1 bis 5, den Bonus (GitHub-Backup) und den Rettungs-Prompt findest du direkt hier:  
+→ **[WORKSHOP.md – Alle Kopiervorlagen & Ablauf](./WORKSHOP.md)**
 
-```text
-Hol dir die Dateien aus https://github.com/vincentmumme/personalos-workshop-starter in diesen Ordner (ohne die Git-Historie der Vorlage). Lies danach AGENTS.md, INDEX.md und system/rules.md und erkläre mir in 5 kurzen Punkten, wie dieses System funktioniert.
-```
+## Schnellstart (Schritt 1)
 
-*(Alternativ: oben rechts auf **Code → Download ZIP** klicken und den Inhalt in deinen Ordner `PersonalOS` entpacken.)*
+1. Lege direkt in deinem **Benutzerordner** einen leeren Ordner `PersonalOS` an *(nicht in OneDrive/iCloud-Dokumente)*.
+2. Öffne diesen Ordner in **T3 Code** als neues Projekt und wähle ein **mittleres Modell** (z. B. Sonnet / Standard-Codex).
+3. Kopiere **Prompt 1** aus [WORKSHOP.md](./WORKSHOP.md#prompt-1) in den Chat.
 
-## Was drin liegt
-
-- `AGENTS.md` & `CLAUDE.md` – Einstieg und Grundprinzipien für jeden Agenten
-- `INDEX.md` – die Karte: was wo liegt
-- `USER.md` & `SOUL.md` – wer du bist und wie dein Agent mit dir arbeitet
-- `people/`, `companies/`, `projects/`, `decisions/`, `inbox/` – deine leeren Inhaltsordner
-- `skills/` – bewusst nur zwei Skills zum Start: `retro` (Standard) und `grill-me` (als einziges externes Beispiel – Skills entstehen aus deiner eigenen Arbeit, nicht durch Sammeln)
-- `system/` – ausführliche Grundregeln, 4 Vorlagen, `tools.md` (Composio CLI) und `learnings.md`
+*(Fallback: Oben rechts auf **Code → Download ZIP** klicken, den Inhalt ohne `README.md` und `WORKSHOP.md` in deinen Ordner `PersonalOS` legen.)*

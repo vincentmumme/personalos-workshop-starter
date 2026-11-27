@@ -1,4 +1,4 @@
-# {{JJJJ-MM-TT}} – {{Entscheidung in einem Satz}}
+# JJJJ-MM-TT – Entscheidung in einem Satz
 
 **Entscheidung:** 
 
@@ -6,4 +6,4 @@
 
 **Verworfene Alternativen:** 
 
-**Betrifft:** [[projects/…]]
+**Betrifft:** projects/beispiel-projekt

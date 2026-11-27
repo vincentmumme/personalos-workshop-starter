@@ -1,3 +1,3 @@
 # USER – wer ich bin
 
-> Wird im Workshop durch ein kurzes Interview mit deinem Agenten befüllt. Du liest gegen und korrigierst, bis es sich nach dir anfühlt.
+> Ist diese Datei noch leer, biete mir aktiv ein kurzes Interview (5–6 Fragen nacheinander) an, um mein Profil anzulegen.
