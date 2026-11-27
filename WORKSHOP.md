@@ -15,7 +15,7 @@
 
 1. **Ordner anlegen:** Erstelle direkt in deinem **Benutzerordner** einen neuen, leeren Ordner `PersonalOS` *(Mac: `/Users/deinname/PersonalOS`, Windows: `C:\Users\deinname\PersonalOS`, bewusst nicht in OneDrive/iCloud-Dokumente)*.
 2. **T3 Code öffnen:** Füge den leeren Ordner `PersonalOS` als Projekt hinzu.
-3. **Einstellungen prüfen:** Wähle deinen Agenten (Claude Code oder Codex), ein **mittleres Modell** (z. B. Claude Sonnet / Standard-Codex) und erlaube lokalen Dateizugriff.
+3. **Einstellungen prüfen:** Wähle deinen Agenten (Claude Code oder Codex), als Standard **Claude Opus 5.5 (Mittel)** oder Codex (Mittel) und erlaube lokalen Dateizugriff.
 
 ---
 

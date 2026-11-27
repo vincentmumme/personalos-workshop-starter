@@ -12,7 +12,7 @@ Alle Prompts aus der Workshop-Anleitung stehen auch hier bereit:
 ## Schnellstart (Schritt 1)
 
 1. Lege direkt in deinem **Benutzerordner** einen leeren Ordner `PersonalOS` an *(nicht in OneDrive/iCloud-Dokumente)*.
-2. Öffne diesen Ordner in **T3 Code** als neues Projekt und wähle ein **mittleres Modell** (z. B. Sonnet / Standard-Codex).
+2. Öffne diesen Ordner in **T3 Code** als neues Projekt und wähle als Standard **Opus 5.5 (Mittel)** oder Codex (Mittel).
 3. Kopiere **Prompt 1** aus der Anleitung (oder aus [WORKSHOP.md](./WORKSHOP.md#prompt-1)) in den Chat.
 
 *(Fallback: Oben rechts auf **Code → Download ZIP** klicken, den Inhalt ohne `README.md` und `WORKSHOP.md` in deinen Ordner `PersonalOS` legen.)*
