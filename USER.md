@@ -1,3 +1,3 @@
-# USER – wer ich bin
+# USER: wer ich bin
 
-> Wird in Schritt 2 durch ein kurzes Interview mit deinem Agenten befüllt. Du liest gegen und korrigierst, bis es sich nach dir anfühlt.
+> Startet in Schritt 2 mit den wichtigsten Basics aus einem kurzen Interview. Wächst danach automatisch aus deinen echten Projektdateien und deiner täglichen Arbeit weiter.

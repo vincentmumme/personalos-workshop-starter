@@ -1,4 +1,4 @@
-# JJJJ-MM-TT – Entscheidung in einem Satz
+# JJJJ-MM-TT: Entscheidung in einem Satz
 
 **Entscheidung:** 
 

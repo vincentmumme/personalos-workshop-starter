@@ -1,8 +1,8 @@
-# INDEX – die Karte
+# INDEX: die Karte
 
 | Ort | Was liegt dort |
 |---|---|
-| `AGENTS.md` | Einstieg, Grundprinzipien, Skill-Verzeichnis für jeden Agenten |
+| `AGENTS.md` | Einstieg, Rolle des Agenten, Grundprinzipien, Skill-Verzeichnis |
 | `CLAUDE.md` | Verweis auf `AGENTS.md` für Claude Code |
 | `USER.md` | Wer ich bin, woran und wie ich arbeite |
 | `SOUL.md` | Wie der Agent mit mir arbeitet |
@@ -12,9 +12,9 @@
 | `decisions/` | Wichtige Entscheidungen: was und warum |
 | `inbox/` | Optionaler Parkplatz für unsortierten Input |
 | `skills/` | Eigene Skills (Start: `retro` und `grill-me`) |
-| `system/rules.md` | Warum es die Prinzipien gibt – mit konkreten Beispielen |
+| `system/rules.md` | Warum die Prinzipien gelten (mit Beispielen) |
 | `system/templates/` | Vorlagen für Person, Organisation, Projekt, Entscheidung |
 | `system/tools.md` | Composio CLI: Pfad, Auth-Regeln und verbundene Dienste |
-| `system/learnings.md` | Was das System aus Korrekturen gelernt hat |
+| `system/learnings.md` | Verbesserungsmotor: was der Agent gelernt und im System angepasst hat |
 
-Neue **Bereiche/Ordner** trägt der Agent hier ein, sobald sie entstehen (keine einzelnen Projekt- oder Personendateien).
+Neue **Bereiche/Ordner** (z. B. `finanzen/`, `health/`, `content/`) trägt der Agent hier ein, sobald wir sie anlegen (nur Bereiche, keine einzelnen Projekt- oder Personendateien).

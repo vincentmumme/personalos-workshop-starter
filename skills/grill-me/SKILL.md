@@ -5,7 +5,7 @@ description: Fragt mich zu einem Plan, Projekt oder einer Entscheidung gezielt a
 
 # Grill me
 
-> Bewusst der einzige „externe“ Beispiel-Skill in diesem Starter-Paket. Alle weiteren Skills sollten aus deiner eigenen, wiederkehrenden Arbeit entstehen – nicht durch Sammeln fertiger Skill-Pakete.
+> Bewusst der einzige „externe“ Beispiel-Skill in diesem Starter-Paket. Alle weiteren Skills entstehen aus deiner eigenen, wiederkehrenden Arbeit (keine fertigen Skill-Pakete sammeln).
 
 1. Klär zuerst, worum es geht und was am Ende feststehen soll.
 2. Lies im PersonalOS nach, was sich schon beantworten lässt. Frag nichts, was dort bereits steht.
